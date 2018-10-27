@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">!-->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<
+	<title>Seguridad Informatica UNAD</title>
+     
+    <meta name="copyright" content="Jean Carlos Vega" />
+
+    <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+<style type="text/css">
+@import url("estilos.css");
+</style>
+</head>
+<body  topmargin="0px" style="padding:0px; margin:0px">
+<table width="900" border="0" align="center" cellpadding="0" cellspacing="0" class="tablasuperior">
+  <tr>
+    <td width="700" height="85" align="center" bgcolor="#D6D6D6"><img src="imagenes/Curso-Superior-Incidentes-Auditoria-Seguridad-Informatica.jpg" width="900" height="136" alt="CABEZA" /></td>
+  </tr>
+  <tr>
+    <td height="552" align="center" valign="top" bgcolor="#E7E7E7"><form id="form1" name="form1" method="post" action="">
+      <div>
+        <table width="20%" height="184" border="0" align="left" cellpadding="0" cellspacing="0" class="tabla">
+          <tr>
+            <td height="15" valign="top" bgcolor="#E7E7E7" class="textocontenidos">      </td>
+            </tr>
+          <tr>
+            <td height="16" align="center" valign="bottom" bgcolor="#E7E7E7" class="textocontenidos"><p class="titulos">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td height="31" align="left" valign="bottom" bgcolor="#E7E7E7" class="titulos"><p>Enlaces</p></td>
+          </tr>
+          <tr>
+            <td height="85" align="center" valign="bottom" bgcolor="#E7E7E7" class="titulos"><img src="imagenes/unad.jpg" width="158" height="77" /></td>
+          </tr>
+          </table>
+  </div>
+      <table width="677" border="0" cellspacing="0">
+        <tr>
+          <td width="657" height="30" align="left" style="color:#666666"><input name="button" type="button" class="button1" id="button" value="INICIO" onclick="JavaScript:window.open('Index.HTML','_self')"/>
+          
+          <input name="button" type="button" class="button" id="button" value="LECTURAS" onclick="JavaScript:window.open('LECTURAS.HTML','_self')"/>
+          <input name="button" type="button" class="button1" id="button" value="MULTIMEDIA" onclick="JavaScript:window.open('MULTIMEDIA.HTML','_self')"/>
+          <input name="button" type="button" class="button1" id="button" value="ACTIVIDADES" onclick="JavaScript:window.open('ACTIVIDADES.HTML','_self')"/>
+          <input name="button" type="button" class="button1" id="button" value="AUTORES" onclick="JavaScript:window.open('AUTORES.HTML','_self')"/>
+            <table width="280" border="0" align="right">
+            <tr>
+              <td><script language="JavaScript">
+function Fecha()
+{
+meses = new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+data = new Date();
+index = data.getMonth();
+diasemana=new Array("Lunes","Martes","Miércoles","Jueves","Viernes","Sabado","Domingo");
+indexday = data.getDay();
+if (indexday == 0)
+indexday = 7;
+any = data.getYear();
+if (any < 1900)
+any = 1900 + any;
+document.write(diasemana[indexday-1]+ "," + ' '+data.getDate()+ " de " + meses[index] + " de " + any);
+}
+          </script>
+                <script language=JavaScript>Fecha()</script></td>
+            </tr>
+          </table></td>
+        </tr>
+        
+        <tr>
+          <td height="5px" ><p class="titulos">&nbsp;</p>
+            <p class="titulos"><strong>Seguridad informatica.</strong><strong></strong></p>
+            <h2><a name="introducca" class="titulos" id="introducca"><strong>Introducci&oacute;n</strong></a></h2>
+            <p class="textocontenidos">Se entiende por&nbsp;<a href="https://www.monografias.com/trabajos/hackers/hackers.shtml" id="autolink">seguridad inform&aacute;tica</a>&nbsp;al conjunto de&nbsp;<a href="https://www.monografias.com/trabajos4/leyes/leyes.shtml" id="autolink">normas</a>,&nbsp;<a href="https://www.monografias.com/trabajos13/mapro/mapro.shtml" id="autolink">procedimientos</a>&nbsp;y&nbsp;<a href="https://www.monografias.com/trabajos11/contrest/contrest.shtml" id="autolink">herramientas</a>, que tienen como&nbsp;<a href="https://www.monografias.com/trabajos16/objetivos-educacion/objetivos-educacion.shtml" id="autolink">objetivo</a>&nbsp;garantizar la disponibilidad, integridad, confidencialidad y buen uso de la&nbsp;<a href="https://www.monografias.com/trabajos7/sisinf/sisinf.shtml" id="autolink">informaci&oacute;n</a>&nbsp;que reside en un&nbsp;<a href="https://www.monografias.com/trabajos7/sisinf/sisinf.shtml" id="autolink">sistema de informaci&oacute;n</a>.</p>
+            <p class="textocontenidos">&nbsp;Cada d&iacute;a m&aacute;s y m&aacute;s personas mal intencionadas intentan tener acceso a los&nbsp;<a href="https://www.monografias.com/trabajos11/basda/basda.shtml" id="autolink">datos</a>&nbsp;de nuestros ordenadores.</p>
+            <p class="textocontenidos">El acceso no autorizado a&nbsp;<a href="https://www.monografias.com/Computacion/Redes/" id="autolink">una red</a>&nbsp;<a href="https://www.monografias.com/trabajos11/curinfa/curinfa.shtml" id="autolink">inform&aacute;tica</a>&nbsp;o a los equipos que en ella se encuentran pueden ocasionar en la gran mayor&iacute;a de los casos graves&nbsp;<a href="https://www.monografias.com/trabajos15/calidad-serv/calidad-serv.shtml#PLANT" id="autolink">problemas</a>.</p>
+            <p class="textocontenidos">Uno de las posibles consecuencias de una intrusi&oacute;n es la&nbsp;<strong>p&eacute;rdida de datos</strong>. Es un hecho frecuente y ocasiona muchos trastornos, sobre todo si no estamos al d&iacute;a de las copias de&nbsp;<a href="https://www.monografias.com/trabajos/seguinfo/seguinfo.shtml" id="autolink">seguridad</a>. Y aunque estemos al d&iacute;a, no siempre es posible recuperar la totalidad de los datos.</p>
+            <p class="textocontenidos">Otro de los problemas m&aacute;s da&ntilde;inos es el&nbsp;<strong>robo de informaci&oacute;n&nbsp;</strong>sensible y confidencial. La divulgaci&oacute;n de la informaci&oacute;n que posee&nbsp;<a href="https://www.monografias.com/trabajos11/empre/empre.shtml" id="autolink">una empresa</a>&nbsp;sobre sus&nbsp;<a href="https://www.monografias.com/trabajos11/sercli/sercli.shtml" id="autolink">clientes</a>&nbsp;puede acarrear demandas millonarias contra esta, o un ejemplo mas cercano a usted es el de nuestras contrase&ntilde;as de las&nbsp;<a href="https://www.monografias.com/trabajos5/cuentas/cuentas.shtml" id="autolink">cuentas</a>&nbsp;de correo por las que intercambiamos informaci&oacute;n con otros.</p>
+            <p class="textocontenidos">Con la constante&nbsp;<a href="https://www.monografias.com/trabajos16/teoria-sintetica-darwin/teoria-sintetica-darwin.shtml" id="autolink">evoluci&oacute;n</a>&nbsp;de las&nbsp;<a href="https://www.monografias.com/trabajos15/computadoras/computadoras.shtml" id="autolink">computadoras</a>&nbsp;es fundamental saber que&nbsp;<a href="https://www.monografias.com/trabajos4/refrec/refrec.shtml" id="autolink">recursos</a>&nbsp;necesitar para obtener seguridad en los&nbsp;<a href="https://www.monografias.com/trabajos7/sisinf/sisinf.shtml" id="autolink">sistemas de informaci&oacute;n</a>.</p>
+            <p class="textocontenidos">En el presente&nbsp;<a href="https://www.monografias.com/trabajos12/guiainf/guiainf.shtml" id="autolink">informe</a>&nbsp;hablaremos sobre la importancia de seguridad inform&aacute;tica, haremos referencias sobre a las formas que existen para proteger los&nbsp;<a href="https://www.monografias.com/trabajos11/teosis/teosis.shtml" id="autolink">sistemas</a>&nbsp;inform&aacute;ticos y la informaci&oacute;n que contienen sobre accesos no autorizados, da&ntilde;os, modificaciones o destrucciones</p>
+            <p align="center" class="titulos">OBJETIVOS</p>
+            <ul>
+              <li>
+                <p class="textocontenidos">El presente informe tiene como objetivo comprender los conceptos b&aacute;sicos de seguridad inform&aacute;tica</p>
+              </li>
+              <li>
+                <p class="textocontenidos">Describir los principales problemas de seguridad inform&aacute;tica con los que se enfrentas los usuarios de computadoras.</p>
+              </li>
+              <li>
+                <p class="textocontenidos">Conocer los conceptos de Integridad, confiabilidad y disponibilidad de la informaci&oacute;n.</p>
+              </li>
+              <li>
+                <p class="textocontenidos">Conocer los factores de riegos</p>
+              </li>
+              <li>
+                <p class="textocontenidos">Conocer los mecanismos de seguridad inform&aacute;tica existentes.</p>
+              </li>
+              <li>
+                <p class="textocontenidos">Concientizar sobre los&nbsp;<a href="https://www.monografias.com/trabajos35/tipos-riesgos/tipos-riesgos.shtml" id="autolink">riesgos</a>&nbsp;a los que las&nbsp;<a href="https://www.monografias.com/trabajos6/napro/napro.shtml" id="autolink">organizaciones</a>&nbsp;y usuarios de computadoras se enfrentan en&nbsp;<a href="https://www.monografias.com/trabajos10/lamateri/lamateri.shtml" id="autolink">materia</a>&nbsp;de seguridad de la informaci&oacute;n</p>
+              </li>
+              <li>
+                <p class="textocontenidos">Y por ultimo ampliar o enriquecer los conocimientos a cerca de la seguridad inform&aacute;tica.</p>
+              </li>
+            </ul>
+            <h2 class="textocontenidos"><a name="seguridada" class="titulos" id="seguridada"><strong>Seguridad Inform&aacute;tica</strong></a></h2>
+            <p align="left" class="textocontenidos">La&nbsp;<strong>seguridad inform&aacute;tica</strong>&nbsp;es la&nbsp;<a href="https://www.monografias.com/trabajos14/disciplina/disciplina.shtml" id="autolink">disciplina</a>&nbsp;que se Ocupa de dise&ntilde;ar las normas, procedimientos,<a href="https://www.monografias.com/trabajos11/metods/metods.shtml" id="autolink">m&eacute;todos</a>&nbsp;y&nbsp;<a href="https://www.monografias.com/trabajos6/juti/juti.shtml" id="autolink">t&eacute;cnicas</a>, orientados a proveer condiciones seguras y confiables, para el procesamiento de datos en sistemas inform&aacute;ticos.</p>
+            <p class="textocontenidos">consiste en asegurar que los recursos del&nbsp;<a href="https://www.monografias.com/trabajos11/teosis/teosis.shtml" id="autolink">sistema</a>&nbsp;de informaci&oacute;n (material inform&aacute;tico o&nbsp;<a href="https://www.monografias.com/Computacion/Programacion/" id="autolink">programas</a>) de una&nbsp;<a href="https://www.monografias.com/trabajos6/napro/napro.shtml" id="autolink">organizaci&oacute;n</a>&nbsp;sean utilizados de la manera que se decidi&oacute; y que el acceso a la informaci&oacute;n all&iacute; contenida, as&iacute; como su modificaci&oacute;n, s&oacute;lo sea posible a las personas que se encuentren acreditadas y dentro de los&nbsp;<a href="https://www.monografias.com/trabajos6/lide/lide.shtml" id="autolink">l&iacute;mites</a>&nbsp;de su autorizaci&oacute;n.</p>
+            <p class="textocontenidos"><strong>Principios de Seguridad Inform&aacute;tica:</strong></p>
+            <p class="textocontenidos">Para lograr sus&nbsp;<a href="https://www.monografias.com/trabajos16/objetivos-educacion/objetivos-educacion.shtml" id="autolink">objetivos</a>&nbsp;la seguridad inform&aacute;tica se fundamenta en tres&nbsp;<a href="https://www.monografias.com/trabajos6/etic/etic.shtml" id="autolink">principios</a>, que debe cumplir todo sistema inform&aacute;tico:</p>
+            <p class="textocontenidos"><strong>Confidencialidad:</strong>&nbsp;Se refiere a la privacidad de los elementos de informaci&oacute;n almacenados y procesados en un sistema inform&aacute;tico, Bas&aacute;ndose en este principio, las herramientas de seguridad inform&aacute;tica deben proteger el sistema de invasiones y accesos por parte de personas o programas no autorizados. Este principio es particularmente importante en&nbsp;<a href="https://www.monografias.com/trabajos16/sistemas-distribuidos/sistemas-distribuidos.shtml" id="autolink">sistemas distribuidos</a>, es decir, aquellos en los que los usuarios , computadores y datos residen en localidades diferentes , pero est&aacute;n&nbsp;<a href="https://www.monografias.com/Fisica/index.shtml" id="autolink">f&iacute;sica</a>&nbsp;y l&oacute;gicamente interconectados.</p>
+            <p class="textocontenidos"><strong>Integridad:</strong>&nbsp;Se refiere a la validez y consistencia de los elementos de informaci&oacute;n almacenados y&nbsp;<a href="https://www.monografias.com/trabajos5/sisope/sisope.shtml" id="autolink">procesador</a>&nbsp;en un sistema inform&aacute;tico. Bas&aacute;ndose en este principio, las herramientas de seguridad inform&aacute;tica deben asegurar que los&nbsp;<a href="https://www.monografias.com/trabajos14/administ-procesos/administ-procesos.shtml#PROCE" id="autolink">procesos</a>&nbsp;de actualizaci&oacute;n est&eacute;n bien sincronizados y no se dupliquen, de forma que todos los elementos del sistema manipulen adecuadamente los mismos datos. Este principio es importante en sistemas descentralizados, es decir, aquellos en los que diferentes usuarios , computadores y procesos comparten la misma informaci&oacute;n.</p>
+            <p class="textocontenidos"><strong>Disponibilidad:</strong>&nbsp;Se refiere a la continuidad de acceso a los elementos de informaci&oacute;n almacenados y procesados en un sistema inform&aacute;tico. Bas&aacute;ndose en este principio, las herramientas de seguridad inform&aacute;tica deber reforzar la permanencia del sistema inform&aacute;tico, en condiciones de actividad adecuadas para que los usuarios accedan a los datos con la frecuencia y dedicaci&oacute;n que requieran, este principio es importante en sistemas inform&aacute;ticos cuyos compromiso con el usuario, es prestar&nbsp;<a href="https://www.monografias.com/trabajos14/verific-servicios/verific-servicios.shtml" id="autolink">servicio</a>&nbsp;permanente.</p>
+            <p class="titulos">&nbsp;</p>
+            <h2 class="textocontenidos" itemprop="name" kr="">Seguridad Inform&aacute;tica</h2>
+            <h2 class="textocontenidos" kr="">1. Malware</h2>
+            <h3 class="textocontenidos" kr="">1.1. TIPOS DE MALWARE</h3>
+            <p class="textocontenidos" kr="">1.1.1. Virus</p>
+            <p class="textocontenidos" kr="">1.1.2. Gusanos</p>
+            <p class="textocontenidos" kr="">1.1.3. Troyano</p>
+            <p class="textocontenidos" kr="">1.1.4. Spyware</p>
+            <p class="textocontenidos" kr="">1.1.5. Adware</p>
+            <p class="textocontenidos" kr="">1.1.6. Ransomware</p>
+            <p class="textocontenidos" kr="">1.1.7. Rogue</p>
+            <p class="textocontenidos" kr="">1.1.8. Rootkit</p>
+            <h3 class="textocontenidos" kr="">1.2. OTRAS AMENAZAS</h3>
+            <p class="textocontenidos" kr="">1.2.1. Phishing</p>
+            <p class="textocontenidos" kr="">1.2.2. Pharming</p>
+            <p class="textocontenidos" kr="">1.2.3. Spam</p>
+            <p class="textocontenidos" kr="">1.2.4. Hoax</p>
+            <h2 class="textocontenidos" kr="">2. Ataques a los sistemas inform&aacute;ticos</h2>
+            <h3 class="textocontenidos" kr="">2.1. TIPOS DE ATAQUES</h3>
+            <p class="textocontenidos" kr="">2.1.1. Interrupci&oacute;n</p>
+            <p class="textocontenidos" kr="">2.1.2. Interceptaci&oacute;n</p>
+            <p class="textocontenidos" kr="">2.1.3. Modificaci&oacute;n</p>
+            <p class="textocontenidos" kr="">2.1.4. Suplantaci&oacute;n</p>
+            <h3 class="textocontenidos" kr="">2.2. ATAQUES REMOTOS</h3>
+            <p class="textocontenidos" kr="">2.2.1. Inyecci&oacute;n de c&oacute;digo</p>
+            <p class="textocontenidos" kr="">2.2.2. Escaneo de puertos</p>
+            <p class="textocontenidos" kr="">2.2.3. Denegaci&oacute;n de servicios</p>
+            <p class="textocontenidos" kr="">2.2.4. Escuchas de red</p>
+            <p class="textocontenidos" kr="">2.2.5. Spoofing</p>
+            <p class="textocontenidos" kr="">2.2.6. Fuerza bruta</p>
+            <p class="textocontenidos" kr="">2.2.7. Elevaci&oacute;n de privilegios</p>
+            <h2 class="textocontenidos" kr="">3. Protecci&oacute;n contra el malware</h2>
+            <h3 class="textocontenidos" kr="">3.1. SOLUCIONES ANTIVIRUS</h3>
+            <p class="textocontenidos" kr="">3.1.1. Es un software que tiene como finalidad prevenir, detectas y eliminar un virus, un software malicioso y otros</p>
+            <p class="textocontenidos" kr="">3.1.2. Algunos de los antivirus m&aacute;s importantes McAfee y Norton</p>
+            <h3 class="textocontenidos" kr="">3.2. S&Iacute;NTOMAS DE UNA INFECCI&Oacute;N</h3>
+            <p class="textocontenidos" kr="">3.2.1. Ralentizaci&oacute;n del equipo</p>
+            <p class="textocontenidos" kr="">3.2.2. Desaparici&oacute;n de archivos</p>
+            <p class="textocontenidos" kr="">3.2.3. Aparici&oacute;n de publicidad</p>
+            <p class="textocontenidos" kr="">3.2.4. Movimiento autom&aacute;tico del rat&oacute;n, men&uacute;s, o ventanas</p>
+            <p class="textocontenidos" kr="">3.2.5. Fallos o comportamientos extra&ntilde;os en las aplicaciones</p>
+            <p class="textocontenidos" kr="">3.2.6. Intentos de conexi&oacute;n a Internet</p>
+            <p class="textocontenidos" kr="">3.2.7. etc</p>
+            <h3 class="textocontenidos" kr="">3.3. POL&Iacute;TICAS DE SEGURIDAD</h3>
+            <p class="textocontenidos" kr="">3.3.1. Es el conjunto de normas que definen las diferentes formas de actuaci&oacute;n con un cierto grado de seguridad.</p>
+            <p class="textocontenidos" kr="">3.3.2. Ejemplos: LSSICE, LOPD</p>
+            <h3 class="textocontenidos" kr="">3.4. PASOS QUE SE DEBEN SEGUIR EN CASO DE INFECCI&Oacute;N</h3>
+            <p class="textocontenidos" kr="">3.4.1. Restaurar el sistema a un estado anterior</p>
+            <p class="textocontenidos" kr="">3.4.2. Actualizar la base de datos del antivirus y realizar un an&aacute;lisis completo del equipo</p>
+            <p class="textocontenidos" kr="">3.4.3. Arrancar el equipo con un Life CD o Life USB</p>
+            <p class="textocontenidos" kr="">3.4.4. Ejecutar utilidades de desinfecci&oacute;n espec&iacute;ficas</p>
+            <h2 class="textocontenidos" kr="">4. Firma electr&oacute;nica y Certificado digital</h2>
+            <h3 class="textocontenidos" kr="">4.1. FIRMA ELECTR&Oacute;NICA</h3>
+            <p class="textocontenidos" kr="">4.1.1. CONJUNTO DE DATOS ASOCIADOS A UN DOCUMENTO ELECTR&Oacute;NICO</p>
+            <p class="textocontenidos" kr="">4.1.1.1. Asegurar la integridad del documento firmado</p>
+            <p class="textocontenidos" kr="">4.1.1.2. Identificar al firmante de forma inequ&iacute;voca</p>
+            <p class="textocontenidos" kr="">4.1.1.3. No repudio</p>
+            <p class="textocontenidos" kr="">4.1.2. FIRMA DE DOCUMENTOS ELECTR&Oacute;NICOS</p>
+            <p class="textocontenidos" kr="">4.1.2.1. El firmante genera, mediante un funci&oacute;n hash, un resumen que es utilizado como huella digital.</p>
+            <p class="textocontenidos" kr="">4.1.3. &iquest;C&Oacute;MO SE FIRMA UN DOCUMENTO?</p>
+            <p class="textocontenidos" kr="">4.1.3.1. Utilizar una aplicaci&oacute;n en el dispositivo</p>
+            <p class="textocontenidos" kr="">4.1.3.1.1. Adobe Acrobat</p>
+            <p class="textocontenidos" kr="">4.1.3.2. Firmar directamente de Internet</p>
+            <p class="textocontenidos" kr="">4.1.3.2.1. https://valide.redsara.es</p>
+            <h2 class="textocontenidos" kr="">5. Seguridad de la informaci&oacute;n</h2>
+            <h3 class="textocontenidos" kr="">5.1. PRINCIPIOS DE LA SEGURIDAD INFORM&Aacute;TICA</h3>
+            <p class="textocontenidos" kr="">5.1.1. Confidencialidad de la informaci&oacute;n</p>
+            <p class="textocontenidos" kr="">5.1.1.1. personas autorizadas</p>
+            <p class="textocontenidos" kr="">5.1.2. Integridad de la informaci&oacute;n</p>
+            <p class="textocontenidos" kr="">5.1.2.1. contenido inalterado</p>
+            <p class="textocontenidos" kr="">5.1.3. Disponibilidad de la informaci&oacute;n</p>
+            <p class="textocontenidos" kr="">5.1.3.1. accesible a todos los usuarios</p>
+            <h2 class="textocontenidos" kr="">6. Amenazas a la seguridad</h2>
+            <h3 class="textocontenidos" kr="">6.1. TIPOS DE AMENAZAS</h3>
+            <p class="textocontenidos" kr="">6.1.1. Humanas</p>
+            <p class="textocontenidos" kr="">6.1.1.1. ataques pasivos</p>
+            <p class="textocontenidos" kr="">6.1.1.1.1. obtener informaci&oacute;n sin alterarla (hacker)</p>
+            <p class="textocontenidos" kr="">6.1.1.2. ataques activos</p>
+            <p class="textocontenidos" kr="">6.1.1.2.1. da&ntilde;ar objetivo y obtener beneficios (cracker)</p>
+            <p class="textocontenidos" kr="">6.1.2. L&oacute;gicas</p>
+            <p class="textocontenidos" kr="">6.1.2.1. Sofware malicioso</p>
+            <p class="textocontenidos" kr="">6.1.2.1.1. con fines no &eacute;ticos</p>
+            <p class="textocontenidos" kr="">6.1.2.2. Vulnerabilidades del software</p>
+            <p class="textocontenidos" kr="">6.1.2.2.1. error de programaci&oacute;n</p>
+            <p class="textocontenidos" kr="">6.1.3. F&iacute;sicas</p>
+            <p class="textocontenidos" kr="">6.1.3.1. Fallos en los dispositivos</p>
+            <p class="textocontenidos" kr="">6.1.3.2. Accidentes</p>
+            <p class="textocontenidos" kr="">6.1.3.3. Cat&aacute;strofes naturales</p>
+            <h3 class="textocontenidos" kr="">6.2. CONDUCTAS</h3>
+            <p class="textocontenidos" kr="">6.2.1. Seguridad ACTIVA</p>
+            <p class="textocontenidos" kr="">6.2.1.1. evitan los da&ntilde;os en los sistemas inform&aacute;ticos</p>
+            <p class="textocontenidos" kr="">6.2.1.1.1. Control de acceso</p>
+            <p class="textocontenidos" kr="">6.2.1.1.2. Encriptaci&oacute;n</p>
+            <p class="textocontenidos" kr="">6.2.1.1.3. Sofware de seguridad inform&aacute;tica</p>
+            <p class="textocontenidos" kr="">6.2.1.1.4. Firmas y certificados digitales</p>
+            <p class="textocontenidos" kr="">6.2.1.1.5. Protocolos seguros</p>
+            <p class="textocontenidos" kr="">6.2.2. Seguridad PASIVA</p>
+            <p class="textocontenidos" kr="">6.2.2.1. reparan o minimizan los da&ntilde;os</p>
+            <p class="textocontenidos" kr="">6.2.2.1.1. Herramientas de limpieza</p>
+            <p class="textocontenidos" kr="">6.2.2.1.2. Copias de suguridad</p>
+            <p class="textocontenidos" kr="">6.2.2.1.3. Sistemas de alimentaci&oacute;n ininterrumpida</p>
+            <p class="textocontenidos" kr="">6.2.2.1.4. Dispositivos NAS</p>
+            <p class="textocontenidos" kr="">6.2.2.1.5. Sistemas redundantes</p>
+            <h2 class="textocontenidos" kr="">7. Cifrado de la informaci&oacute;n</h2>
+            <h3 class="textocontenidos" kr="">7.1. CRIPTOGRAF&Iacute;A</h3>
+            <p class="textocontenidos" kr="">7.1.1. De clave sim&eacute;trica</p>
+            <p class="textocontenidos" kr="">7.1.2. De clave asim&eacute;trica</p>
+            <p class="textocontenidos" kr="">7.1.3. De clave p&uacute;blica</p>
+            <p class="titulos">&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td height="21" bgcolor="#E7E7E7"><p class="textocontenidos">&nbsp;</p></td>
+        </tr>
+        <tr height="10px">
+          <td></td>
+        </tr>
+        <tr>
+          <td align="left"></td>
+        </tr>
+        <tr height="10px">
+          <td></td>
+        </tr>
+        <tr>
+          <td height="16" class="titulos" style="color:#666666"><hr style="border:Silver 1px dotted" /></td>
+        </tr>
+        <tr height="5px">
+          <td></td>
+        </tr>
+        <tr>
+          <td style="text-align:justify"><div id="contenidoNoticias">
+            <script language="JavaScript1.2" type="text/javascript">
+function objetoAjax(){ 
+	 var xmlhttp=false;  
+	 try{   
+		xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");  
+	 }catch(e){   
+		try{   
+		  xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");   
+		}catch(E){   
+		  xmlhttp = false;
+		}
+	 }  
+	 if (!xmlhttp && typeof XMLHttpRequest!='undefined'){
+		xmlhttp = new XMLHttpRequest();
+	 }  
+	 return xmlhttp;
+}
+function Pagina(nropagina){ 
+	var divContenido = document.getElementById('contenidoNoticias');  
+	ajax=objetoAjax(); 
+	ajax.open("GET", "contenidos/noticias.php?clases=1&pag="+nropagina,true); 
+	ajax.onreadystatechange=function() {  
+	  if (ajax.readyState==4) {   
+		 divContenido.innerHTML = ajax.responseText;  
+	  } 
+	}
+	ajax.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+	ajax.send(null);
+	return
+}
+            </script><!--<table cellpadding="1" cellspacing="1">
+</table>!-->
+          </div></td>
+        </tr>
+        <tr>
+          <td align="left" class="textocontenidos"><p>&nbsp;</p>
+            <p>Copyright&copy;2018</p>
+            <aside>
+<a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc^tfw" class="twitter-follow-button" data-show-count="false">Follow @UniversidadUNAD </a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></td>
+        </tr>
+      </table>
+    </form>
+      <p>
+        <label for="textarea"></label>
+      </p></td>
+  </tr>
+  
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+swfobject.registerObject("FlashID");
+</script>
+</body>
+</html>

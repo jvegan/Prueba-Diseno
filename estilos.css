@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+.titulos {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+	line-height: 5px;
+}
+.tabla {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-bottom-color: #CCC;
+}
+.textocontenidos {
+	font-family: "berlin Sans FB";
+	font-size: 16px;
+	color: #333;
+}
+.cajasTexto {
+	background-color: #EDF5D8;
+	width: auto;
+	border: 2px groove #808000;
+	font-size: 18px;
+}
+.button {
+	border: 0px none #FFFFFF;
+	font-size: 15px;
+	font-family: "Berlin Sans FB";
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	color: #333333;
+	background-color: #06F;
+	background-position: left;
+	background-image: url(imagenes/BOTONES.png);
+  }
+  .button1 {
+	border: 0px none #FFFFFF;
+	font-size: 15px;
+	font-family: "Berlin Sans FB";
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	color: #FFFFFF;
+	background-color: #CCC;
+	background-position: left;
+	background-image: url(imagenes/BOTONES1.png);
+  }
+.button:hover
+
+  {
+	color: #FFFFFF;
+	background-color: #063;
+	background-image: url(imagenes/BOTONES1.png);
+	background-position: left;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+
+  }
+
+.texblanco {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+}
+
+input:focus {
+  border: 2px solid #000;
+  background: #F3F3F3;
+}
+
+#contenido {
+  float: left;
+  width: 85%;
+}
+fondo {
+}
+
+.fondo {
+	background-image: url(IMAGENES/PEQUE%C3%91OS.png);
+	font-family: "Arial Black", Gadget, sans-serif;
+	background-color: #FFF;
+}
+.tablasuperior {
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-left-color: #CCC;
+}
